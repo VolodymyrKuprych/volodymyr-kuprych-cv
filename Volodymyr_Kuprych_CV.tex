@@ -1,0 +1,111 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+
+\usepackage{hyperref}
+
+% Set applicant's personal data for header
+\name{Volodymyr Kuprych}
+\address{Aveiro, Portugal \linebreak \href{https://www.linkedin.com/in/volodymyr-kuprych-671a931a2}{LinkedIn}}
+\contacts{(+351)  \linebreak vova911507@gmail.com}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Print the content
+	\begin{cvsection}{Summary}
+		\begin{cvsubsection}{}{}{}
+			Experienced Software Engineer with 6+ years specializing in .NET and React. Passionate about solving complex problems through efficient, maintainable code.
+		\end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{Employment}
+		\begin{cvsubsection}{Software Engineer}{IT People Innovation}{Jun 2024 -- Present}
+			TJA Client - ERP project (Fleet Management Systems)			
+			\begin{itemize}
+				\item Enhanced a custom UI library by developing complex, reusable components and optimizing existing ones to improve performance, responsiveness, and maintainability.
+				\item Maintained multiple ERP microfrontend modules, ensuring smooth integration and delivering an optimal user experience.
+				\item Starting in April 2024, I will be working as a .NET Backend Developer, focusing on ERP modules based on microservices.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Software Engineer}{University of Aveiro}{Sep 2019 -- Jun 2024}	
+			\begin{itemize}
+				\item Designed, developed, and maintained multiple .NET MVC applications tailored to the needs of internal clients, including professors, researchers, and students.
+				\item Enhanced the front-end functionality of the University of Aveiro's official website (www.ua.pt) using React. This included working with a custom headless CMS and a dedicated UI library to improve and maintain the website's performance and user experience.
+				\item Integrated various internal APIs with the UA chatbot (Dialogflow) - .NET, Node.js.
+				\item Created a Node.js-based service component for the ValorMar-PPS4 microservices project, enabling event monitoring and alert configurations in the collaborative supply chain as part of my master's degree.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Mobile Developer Intern}{Talents and Treasures, Lda}{May 2014 -- Aug 2014}		
+			\begin{itemize}
+				\item Developed a cross-platform application for tourists visiting Águeda, designed to provide information on popular attractions and points of interest, along with navigation capabilities.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Aveiro, Portugal}{University of Aveiro}{2014 -- 2021}
+			\begin{itemize}
+				\item Master's in Software Engineering. Grade: 17/20, Dissertation: 19/20
+				\item Bachelor's in Software Engineering. Grade: 15/20, Final Project: 17/20
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{Programing Languages and Technologies}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item .NET 8, .NET Core, C\#, EF Core, SQL, Microsoft SQL Server, MVC, Microservices, Unit and Integration Testing
+				\item React, Next.js, Node.js, JavaScript, CSS, HTML, Atomic Design, Microfrontends
+				\item Azure DevOps, Git, Docker, Scrum, DRY, KISS, YAGNI, SOLID Design Principles, Design Patterns
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Personal Projects}
+		\begin{cvsubsection}{}{}{}
+			\begin{itemize}
+				\item \textbf{ShadowSpeak} (Aug 2024 - Present). Developing an Android video player to improve English pronunciation using shadowing techniques, featuring real-time feedback, adjustable speed, segment repetition, etc.
+				\item \textbf{Mental Arithmetic} (2016). An android math game to train and test abilities in math calculations.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{Languages}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item English, Portuguese, Ukrainian, Russian
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+\end{document}
+
